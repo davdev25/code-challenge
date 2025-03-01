@@ -26,3 +26,21 @@ Add also to your array the painting thumbnails present in the result page file (
 Test against 2 other similar result pages to make sure it works against different layouts. (Pages that contain the same kind of carrousel. Don't necessarily have to be paintings.)
 
 The suggested time for this challenge is 4 hours. But, you can take your time and work more on it if you want.
+
+## Solution
+
+### Overview
+
+The motivation of this solution was to make it easy to extend gallery types.
+
+### Examples
+
+- **Van Gogh Paintings**
+- **Salvador Dali**
+- **Picaso Paintings**
+- **Donatello Sculptures**
+
+### Usage
+
+- `ruby main.rb` to run the program. It add a json version of the input file with the output.
+- `rake spec` to run tests.
